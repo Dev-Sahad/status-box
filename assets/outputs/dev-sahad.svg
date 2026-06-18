@@ -1,0 +1,27 @@
+<svg width="520" height="151" viewBox="0 0 520 151" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+    </style>
+    <rect width="520" height="151" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+    
+    <path d="M0 8C0 3.58172 3.58172 0 8 0H512C516.42 0 520 3.58172 520 8V35H0V8Z" fill="#161b22"/>
+    <circle cx="20" cy="17.5" r="6" fill="#ff5f56"/>
+    <circle cx="40" cy="17.5" r="6" fill="#ffbd2e"/>
+    <circle cx="60" cy="17.5" r="6" fill="#27c93f"/>
+    
+    <text x="260" y="22" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" fill="#8b949e">sahad@terminal:~</text>
+    
+    
+        <text x="25" y="55" font-family="JetBrains Mono, monospace" font-size="13" fill="#00ff00">
+            <tspan font-weight="bold" fill="#888888">&gt; Status:</tspan> Building autonomous systems
+        </text>
+        <text x="25" y="79" font-family="JetBrains Mono, monospace" font-size="13" fill="#ffffff">
+            <tspan font-weight="bold" fill="#888888">&gt; Stack:</tspan> Node.js | Python | Systems Architecture
+        </text>
+        <text x="25" y="103" font-family="JetBrains Mono, monospace" font-size="13" fill="#ffffff">
+            <tspan font-weight="bold" fill="#888888">&gt; Focus:</tspan> High-throughput automation engines
+        </text>
+        <text x="25" y="127" font-family="JetBrains Mono, monospace" font-size="13" fill="#888888">
+            <tspan font-weight="bold" fill="#888888">&gt; Uptime:</tspan> 21 Years Active
+        </text>
+</svg>

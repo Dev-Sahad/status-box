@@ -1,0 +1,33 @@
+name: Generate Retro Status Boxes
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository Code
+      uses: actions/checkout@v4
+
+    # Fix: Corrected action block to set up the Node environment securely
+    - name: Setup Node.js Environment
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Run Status-Box Generation Engine
+      run: node index.js
+
+    - name: Commit and Push Generated Assets
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add assets/outputs/*.svg
+        git diff-index --quiet HEAD || git commit -m "chore: automated asset compilation update"
+        git push origin main
+        

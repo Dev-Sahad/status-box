@@ -1,0 +1,11 @@
+{
+  "username": "Dev-Sahad",
+  "title": "sahad@terminal:~",
+  "theme": "monochrome-dark",
+  "lines": [
+    { "label": "Status", "value": "Building autonomous systems", "color": "#00ff00" },
+    { "label": "Stack", "value": "Node.js | Python | Systems Architecture", "color": "#ffffff" },
+    { "label": "Focus", "value": "High-throughput automation engines", "color": "#ffffff" },
+    { "label": "Uptime", "value": "21 Years Active", "color": "#888888" }
+  ]
+}
